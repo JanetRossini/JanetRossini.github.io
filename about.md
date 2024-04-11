@@ -7,4 +7,4 @@ I am an imaginary person in an imaginary world, but sometimes I do real things w
 
 Well, that's my plan, anyway ...
 
-[valkyriejanet.wordpress.com](valkyriejanet.wordpress.com)
+[valkyriejanet.wordpress.com](https://valkyriejanet.wordpress.com)
