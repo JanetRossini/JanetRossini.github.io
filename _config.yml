@@ -1,0 +1,9 @@
+# Site settings
+title: Janet's Notes
+author:
+  name: Janet Rossini
+  email: valkyriejanet@gmail.com
+description: "Miscellaneous Articles Trying to be Useful"
+
+# Build settings
+remote_theme: jekyll/minima
