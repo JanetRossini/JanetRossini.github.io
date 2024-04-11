@@ -7,5 +7,5 @@ Things are just getting started, so there isn't much of interest here right now.
 
 ~~~python
 def foo:
-	return "foo"
+    return "foo"
 ~~~
