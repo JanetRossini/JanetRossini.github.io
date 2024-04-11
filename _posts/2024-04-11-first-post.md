@@ -1,6 +1,6 @@
 ---
-date: "2024-04-10"
-title: "This is a Post"
+date: "2024-04-11"
+title: "Initial Post"
 ---
 
-This is a post not something else, which I suspect does not show up in the top bar on the home page.
+Just a meaningless post to get the layout running. Nothing to see here, move on.

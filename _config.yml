@@ -7,3 +7,4 @@ description: "Miscellaneous Articles Trying to be Useful"
 
 # Build settings
 theme: minima
+  skin: dark
