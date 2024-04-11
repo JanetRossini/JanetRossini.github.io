@@ -1,13 +1,8 @@
 ---
 date: "2024-04-01-1100"
-title: "Home Page"
+
 ---
 
-# This is possibly my home page
+# Welcome!
 
-If it is, things are starting to work.
-
-[Here is the first article.](initial.html)
-And here is [999](999)
-
-Theme set to minima
+Thigns are just getting started, so there isn't much of interest here right now. Or possibly, ever.
