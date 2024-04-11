@@ -1,6 +1,6 @@
 ---
-date: "2024-04-01-1100"
+date: "2024-04-10"
 title: "This is a Post"
 ---
 
-This is article 999, which I suspect does not show up in the top bar on the home page.
+This is a post not something else, which I suspect does not show up in the top bar on the home page.
