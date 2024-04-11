@@ -9,3 +9,5 @@ If it is, things are starting to work.
 
 [Here is the first article.](initial.html)
 And here is [999](999)
+
+Theme set to jekyll/hacker
