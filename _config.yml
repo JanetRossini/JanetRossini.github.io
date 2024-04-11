@@ -6,5 +6,9 @@ author:
 description: "Miscellaneous Articles Trying to be Useful"
 
 # Build settings
-theme: minima
-  skin: dark
+# theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: dark # or auto if you want it to switch with your system settings.
