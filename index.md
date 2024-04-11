@@ -4,3 +4,8 @@ title: Welcome!
 ---
 
 Things are just getting started, so there isn't much of interest here right now. Or possibly, ever.
+
+~~~python
+def foo:
+	return "foo"
+~~~
