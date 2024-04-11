@@ -4,3 +4,11 @@ title: "Initial Post"
 ---
 
 Just a meaningless post to get the layout running. Nothing to see here, move on.
+
+Before you go, here is a small Python program:
+
+
+~~~python
+def foo:
+    return "foo"
+~~~
