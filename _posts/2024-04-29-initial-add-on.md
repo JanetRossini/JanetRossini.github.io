@@ -124,11 +124,11 @@ The convention I'm following is that every separate component that needs registr
 
 With the code in place and saved, I go to a file browser and zip up the entire project into a zip file. Then, in Blender, Command+comma gets me the Preferences (also under Edit), and selecting Add-ons gets me here:
 
-![ready to add on]{../assets/ready.png}
+![ready to add on](/assets/ready.png)
 
 Click "Install", navigate to the zip file, select it and install. That should bring you to this picture:
 
-![ready to enable](../assets/enable.png)
+![ready to enable](/assets/enable.png)
 
 Click the little checkbox to enable your add-on, and you should be good to go.
 
