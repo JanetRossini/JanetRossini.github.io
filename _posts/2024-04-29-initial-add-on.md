@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
 The commented bit is something that I think we'll need for reloading to work, and is there to remind me of the need. At that time, I think we also need to put the imports right below inside the else. The idea, as I understand it, is that when you reload, `bpy` will be defined and so you reload the stuff, but when you are loaded initially, `bpy` is not defined and you do the imports. This is arcane magic to me, but I think we'll need to know it someday.
 
-Aa this stands, if we had 87 files in the add-on (please, no), we'd have 87 imports, register lines, unregister lines. We'll be working on a better way to do that. 
+As this stands, if we had 87 files in the add-on (please, no), we'd have 87 imports, register lines, unregister lines. We'll be working on a better way to do that. 
 
 The inner `__init__.py` is empty, just there to signal "package" to Python. It may not be necessary, but since I am just following instructions here, I included it.
 
@@ -137,3 +137,11 @@ If there is something wrong in your structure, trying to enable may produce an e
 What I know right now is that it works on my machine. :)
 
 Progress, and I am happy.
+
+## Notes
+
+The reader might find it useful to find out where the Blender-provided add-ons are stored, and to revies some of them for ideas on ways to do things that work. On the Mac, my local add-ons are at `~/Library/Application Support/Blender/4.0/scripts/addons`, and the built in ones are at `/Applications/Blender.app/Contents/Resources/4.0/scripts/addons`. I wish you good luck finding yours: you will find it useful.
+
+At one point, I wound up with something malformed in Blender and the only fix was to go to my local add-ons folder and remove my files manually. 
+
+This is definitely rocket surgery.
