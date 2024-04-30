@@ -140,7 +140,7 @@ Progress, and I am happy.
 
 ## Notes
 
-The reader might find it useful to find out where the Blender-provided add-ons are stored, and to revies some of them for ideas on ways to do things that work. On the Mac, my local add-ons are at `~/Library/Application Support/Blender/4.0/scripts/addons`, and the built in ones are at `/Applications/Blender.app/Contents/Resources/4.0/scripts/addons`. I wish you good luck finding yours: you will find it useful.
+The reader might find it useful to find out where the Blender-provided add-ons are stored, and to review some of them for ideas on ways to do things that work. On the Mac, my local add-ons are at `~/Library/Application Support/Blender/4.0/scripts/addons`, and the built in ones are at `/Applications/Blender.app/Contents/Resources/4.0/scripts/addons`. I wish you good luck finding yours: you will find it useful.
 
 At one point, I wound up with something malformed in Blender and the only fix was to go to my local add-ons folder and remove my files manually. 
 
