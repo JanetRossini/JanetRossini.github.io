@@ -3,51 +3,7 @@ date: "2024-05-28-1330"
 title: Blender Materials
 ---
 
- <73.59375, 38.50000, 411.26770>
-
-JR: no but i wanted to wait until you were here :)
-
-    Dizzi Sternberg: got to laka jump brb
-NS: Smiles
-NS: I am just rehersing ignore the "" text
-NS: But one need to use a new language
-NS: i will provide translations
-NS: lol
-    Dizzi Sternberg: yes there is no google translate
-NS: no
-NS: Smiles
-NS: and Sl is a not toki pona land
-    Dizzi Sternberg: no
-NS: one group is all
-    Dizzi Sternberg: so this logic problem
-NS: Yes Dizzi ?
-    Dizzi Sternberg: i realised i have done it before
-NS: k
-NS: so you are all set :)
-    Dizzi Sternberg: Zen has the "Dizzi loop" on her railway
-NS: ohh
-NS: So nice Diziz you know that works
-    Dizzi Sternberg: i just dont know how i did it
-    Dizzi Sternberg: lol
-NS: lol she got the script
-NS: burt you have a stop
-NS: and a s tart
-NS: stop/start
-
-NS: ok Dizzi
-
-JR: oh no i have messed up my blender panes
-
-NS: yes ?
-NS: lucky whan one do janet it is only for the specific file one work on
-
-JR: that's bad enough :)
-
-NS: if you not deliberately save as default
-NS: So what did you do
-NS: lost a window
-NS: or added to amny
-NS: many
+Here is a reoughly edited transcript of a lesson in materials in Blender, for Second Life.
 
 JR: i think i got it back. i was trying to make a split view, going to try to figure out some shader / texture / material
 
@@ -84,7 +40,7 @@ NS: it is fast and very otent
 NS: and put all functions into one window
 NS: rather than a million of sun menus
 NS: sub
-NS: So you hve a model now Janet you are happy with ?
+NS: So you hve a model now that you are happy with ?
 
 JR: not entirely but i think it is time to learn to do things like rivets
 
@@ -171,7 +127,7 @@ NS: the same as pprevious
 JR: but don't you use nodes to generate your rivets?
 
 NS: now if you liek the moder to spli in certain parth
-NS: You can do Janet
+NS: You can
 NS: use nodes for that
 NS: but would take you a good week for that to get working
 NS: normal we usea bumpmap
@@ -251,7 +207,7 @@ NS: in what ever format you draw program use
 NS: blender expoers all types of textures
 NS: export
 NS: so formnat can be anything
-NS: But that is the basic thing to do janet
+NS: But that is the basic thing to do,
 NS: because as soon as yo make more difficult models - not bozes or cylinders
 NS: you run into strange mapping of the textures
 
@@ -486,7 +442,7 @@ JR: can you sketch for me the procedure for doing a bump map? or is this enough 
 
 NS: the bump map is a gray map
 NS: black is low white is up
-NS: so we can do a simple thign to get you started Janet
+NS: so we can do a simple thign to get you started
 
 JR: ok
 JR: just a bump or crease or something simple
@@ -505,7 +461,7 @@ JR: ok yes
 
 NS: [https://gyazo.com/b51993563144c3ba47c78f823e13f6e3](https://gyazo.com/b51993563144c3ba47c78f823e13f6e3)
 
-JR: that still has my janet picture in it
+JR: that still has my starting picture in it
 
 NS: look like this for me
 
@@ -565,7 +521,7 @@ JR: i am behind. is the europe thing an image texture node?
 
 NS: no in the node editor window
 NS: [https://gyazo.com/a686620080b4f8574f9e2c13be0b3a2d](https://gyazo.com/a686620080b4f8574f9e2c13be0b3a2d)
-NS: like this Janet
+NS: like this
 
 JR: ok i do not know how to get those two new nodes in
 JR: what did you add?
@@ -619,7 +575,7 @@ NS: a screen dump
 JR: [https://gyazo.com/6651dcfb444e0abe5de9fa930e2938ca](https://gyazo.com/6651dcfb444e0abe5de9fa930e2938ca)
 JR: i think it's probably right just looks weird because of my weird image
 
-NS: yes ok janet
+NS: yes ok
 NS: it of course depends on the bump map but it is ok
 
 JR: with a sensible texture it would look better.
@@ -724,7 +680,7 @@ NS: and select the fall off aroudn the brush
 
 JR: yes. oh before i pass out ... how did you make that round one on your example
 
-NS: was just here Janet
+NS: was just here
 NS: i did not select anything special for this example
 
 JR: so that is just a single dot?
@@ -789,7 +745,7 @@ NS: Normal map dont have alfa channels
 
 JR: ok so anyway i get a black thing by opening the normal map on the left
 
-NS: you got ti janet ?
+NS: you got it?
 
 JR: i think so
 
@@ -865,7 +821,7 @@ NS: NO you save it as a picture
 
 JR: let's stick with simple for now, my brain is full :)
 
-NS: called somethin like Janet_Normal
+NS: called somethin like JR_Normal
 NS: Just save it
 NS: and then upload to SL
 
