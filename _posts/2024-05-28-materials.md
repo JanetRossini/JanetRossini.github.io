@@ -156,8 +156,10 @@ NS: where the unwrap splits
 JR: so do i want to add seams at the top and bottom?
 
 NS: yes just to teach you how to
-NS: [https://gyazo.com/af537608921d6eb79d0dc0802a71ac30](https://gyazo.com/af537608921d6eb79d0dc0802a71ac30)
 NS: a box like this
+NS: [https://gyazo.com/af537608921d6eb79d0dc0802a71ac30](https://gyazo.com/af537608921d6eb79d0dc0802a71ac30)
+
+
 NS: so seams are added by selecting edges
 NS: and then go to edges / mark seams
 NS: or alternatively
