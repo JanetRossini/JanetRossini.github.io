@@ -1,6 +1,6 @@
 ---
 date: "2024-05-28-1330"
-title: Blender Materials
+title: Blender Materials v0.3
 ---
 
 Here is a roughly edited transcript of a lesson in materials in Blender, for Second Life.    
