@@ -1,6 +1,6 @@
 ---
 date: "2024-05-28-1330"
-title: Blender Materials v0.4
+title: Blender Materials v0.5.1
 ---
 
 Here is a roughly edited transcript of a lesson in materials in Blender, for Second Life.    
@@ -57,7 +57,7 @@ NS: So before you go to texturing
 NS: you need to have a defined UV map    
 NS: is not you build should be in a uniform colour    
 NS: should be    
-NS: Sis you make unwrap of the model ?    
+NS: Did you make unwrap of the model ?    
 
 JR: no, how do i do that?    
 JR: i though i should start by making a material for it?    
@@ -159,7 +159,7 @@ NS: yes just to teach you how to
 NS: a box like this    
 NS: [https://gyazo.com/af537608921d6eb79d0dc0802a71ac30](https://gyazo.com/af537608921d6eb79d0dc0802a71ac30)    
 
-![](/asssets/p1.png)
+![](/assets/p1.png)
 
 NS: so seams are added by selecting edges    
 NS: and then go to edges / mark seams    
@@ -265,7 +265,7 @@ JR: so somewhere in the folders i would find a texture?
 NS: so the whole thing should look like this    
 NS: [https://gyazo.com/934ad46dfeeeb326a711fc3bba5ef4c0](https://gyazo.com/934ad46dfeeeb326a711fc3bba5ef4c0)    
 
-![](/asssets/p2.png)
+![](/assets/p2.png)
 
 NS: now find the texture to use    
 NS: and upload that    
@@ -401,7 +401,7 @@ NS: UV editing
 NS: Here's a picture:    
 NS: [https://gyazo.com/e62b473e305d1ef7369a927b2d9d5fce](https://gyazo.com/e62b473e305d1ef7369a927b2d9d5fce)    
 
-![](/asssets/p3.png)
+![](/assets/p3.png)
 NS: here i am back in my box a bit more complex    
 NS: i have it is edit mode and selected all the faces on the top    
 NS: and in the right panel you see the UV MAP    
@@ -410,13 +410,13 @@ NS: now i can decide where i like my UV map to be
 NS: maybe i like the top of the box to have the whole map    
 NS: [https://gyazo.com/3c0715c29431c5461afb61fb63f0e3a7](https://gyazo.com/3c0715c29431c5461afb61fb63f0e3a7)    
 
-![](/asssets/p4.png)
+![](/assets/p4.png)
 NS: like this    
 NS: and i can get my texture displayed as i like    
 NS: [https://gyazo.com/58eb1c9288226b7f72b39b4ea8f4e726](https://gyazo.com/58eb1c9288226b7f72b39b4ea8f4e726)    
 
 
-![](/asssets/p5.jpeg)
+![](/assets/p5.jpeg)
 NS: So if you have a special texture with things you want to display    
 NS: you can fiddle theUV map around    
 NS: to cover those areas    
@@ -474,7 +474,7 @@ JR: ok yes
 NS: [https://gyazo.com/b51993563144c3ba47c78f823e13f6e3](https://gyazo.com/b51993563144c3ba47c78f823e13f6e3)    
 
 
-![](/asssets/p6.jpeg)
+![](/assets/p6.jpeg)
 
 JR: that still has my starting picture in it    
 
@@ -500,7 +500,7 @@ NS: so you draw a few white lines across the black image
 NS: [https://gyazo.com/97e420fb7b27b350dc319b24ad0fe44c](https://gyazo.com/97e420fb7b27b350dc319b24ad0fe44c)    
 
 
-![](/asssets/p7.png)    
+![](/assets/p7.png)    
 NS: like this or anything    
 
 NS: then we have created the basis for a bump map    
