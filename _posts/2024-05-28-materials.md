@@ -21,7 +21,7 @@ NS: and the splitting and joining is like in excel basically
 JR: yes found that and figured out how to make the split go away. and i do not use excel :)    
 
 NS: ok    
-NS: bit hover over with the mouse    
+NS: just hover over with the mouse    
 NS: and select the function on the border    
 NS: in the start i tried to set up special windows which was suiting me better    
 NS: but over time i found that keeping the default system is much more consistent    
