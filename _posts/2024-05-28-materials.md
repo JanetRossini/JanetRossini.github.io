@@ -7,40 +7,37 @@ title: Blender Materials
 
 Here is a roughly edited transcript of a lesson in materials in Blender, for Second Life.
 
-JR: i think i got it back. i was trying to make a split view, going to try to figure out some shader / texture / material
 
-
-JR: i was thinking add a material and then open shader editor?
+JR: Add a material to my object and then open shader editor?
 
 NS: yes. 
 in each window the icon in the top left corner
 is the one defining its mode
 so one can always go there and change
-and the splitting and joining is like in excel basically
+and the splitting and joining is like in excel basically.
 
 
-JR: yes found that and figured out how to make the split go away. and i do not use excel :)
+JR: yes found that.
 
 NS: ok
 just hover over with the mouse
-and select the function on the border
-in the start i tried to set up special windows which was suiting me better
-but over time i found that keeping the default system is much more consistent
+and select the function on the border.
+in the start i tried to set up special windows which suited me better
+but over time i found that keeping the default system is much more consistent.
 then change view mode (windows type)
-rather tan fiddling with custom view setups
+rather than fiddling with custom view setups
 
 JR: yes probably
 
 
 JR: hm i see that texture mapping is not intuitively obvious to the casual observer
 
-NS: no
-that is a very complicated area
-I highly suggest you start to use the node system for that
+NS: no.
+that is a very complicated area.
+I highly suggest you start to use the node system for that.
 it is fast and very potent
-and put all functions into one window
-rather than a million of sun menus
-sub
+and puts all functions into one window
+rather than a million of sub menus
 So you have a model now that you are happy with ?
 
 JR: not entirely but i think it is time to learn to do things like rivets
@@ -49,15 +46,16 @@ NS: Yes
 
 JR: so i am starting with a cube :)
 
-NS: let take the steps which is essential for building
-1) do the model you like
-2) Do the UV unwrapping and the UV mapping
-3) Setup textures
+NS: let's look at the steps which are essential for building:
+
+1. do the model you like
+2. Do the UV unwrapping and the UV mapping
+3. Setup textures
+
 So before you go to texturing
-you need to have a defined UV map
-is not you build should be in a uniform colour
-should be
-Did you make unwrap of the model ?
+you need to have a defined UV map.
+IF not you build would be in a uniform colour
+Did you make an unwrapping of the model ?
 
 JR: no, how do i do that?
 JR: i thought i should start by making a material for it?
@@ -69,20 +67,19 @@ look
 
 JR: yes i understand what unwrapping does. how do i trigger it?
 
-NS: you go to UV edit
-the is a special window
-UV Editing
-and then when there
-select the object and go in edit mode
+NS: you go to UV edit.
+that is a special window,
+UV Editing,
+and then when there,
+select the object and go into edit mode
 
 NS: then you can see all the build
-and if ti s a simple one
-you can select all points in edit mode
-yes
+and if it is a simple one
+you can select all points in edit mode,
 but that is Blender's default UV unwrap
 
-NS: every object you add has a default UV setup
-may not necessary work for what you like to do
+NS: every object you add has a default UV setup that
+may not necessarily work for what you want to do
 
 JR: let's say that where i want to get to is to put a line of rivets around all the faces of my cube ...
 
@@ -102,45 +99,45 @@ NS: one for the other parts ?
 JR: oh I'm not there yet, let's just texture a cube
 just to learn the basics
 
-NS: the object may be made by different structures
-OK
+NS: the object may be made by different structures.
+OK,
 that is very easy
-because it i is by default UV unwrapped
-but if not you select all the point in it
-and press U
+because it is by default UV unwrapped
+but if not you select all the points in it
+and press U.
 
 JR: ok
 
-NS: that give you the different unwrap options
-and you just use Smart UV project
-which is the general form
+NS: that gives you the different unwrap options
+and you just use Smart UV project,
+which is the general form.
 
 it cuts the object into adjoining faces
 so if you don't care how the texture wraps around
-it is great method for most
+it is a great method for most
 
 JR: yes. i kind of remember that from before blender had these node things
 
-NS: yes this is not nodes
-the same as previous
+NS: yes this is not nodes, it is
+the same as previous.
 
 JR: but don't you use nodes to generate your rivets?
 
-NS: now if you like the model to split in certain parts
+NS: now if you like the model to split in certain parts.
 You can
 use nodes for that
-but would take you a good week for that to get working
-normal we use a bump map
-to do those things
+but would take you a good week for that to get working.
+Normally we just use a bump map
+to do those things,
 just make dots in gray scale
 
 JR: hm ok
 
-NS: and they will appear as bumps in the texture
-but let's get the cube unwrapped
-say you like the lid
+NS: and they will appear as bumps in the texture.
+But let's get the cube unwrapped. 
+say you would like the lid
 and the bottom
-to be on their own
+to be on their own.
 could be wood planks
 and the the 4 sides
 
@@ -182,14 +179,14 @@ NS: you get a little menu when unwrapping a little bar
 where one can control features as distance between island
 of the unwrap
 
-JR: when i regular unwrap made a mess
+JR: when i did regular unwrap it made a mess
 
 NS: but the two faces top and bottom should be independent now
 the sides will be a mesh probably
 
 JR: yes a real messy one
 
-NS: so add one seam line to one side of the box
+NS: so add one more seam line to one side of the box
 
 JR: ah ok
 
@@ -198,36 +195,35 @@ a band
 
 JR: ah ok and then i can use margin to space out the separate ones
 
-NS: yes exactly
+NS: yes exactly.
 and you can save that UV map
-and take it into PS
-and then add thing thereto you texture and they will be placed according to the unwrap
+and take it into PhotoShop
+and then add thing there to your texture and they will be placed according to the unwrap
 
-JR: (which i do not have) but i suppose i could draw on it with procreate or something.
+JR: I do not have PS but i suppose i could draw on it with procreate or something.
 JR: in what form can it be saved? just as an image?
 
 NS: in what ever format you draw program use
 blender exports all types of textures
-export
-so format can be anything
+so format can be anything.
 But that is the basic thing to do,
-because as soon as yo make more difficult models - not boxes or cylinders
+because as soon as you make more difficult models - not boxes or cylinders
 you run into strange mapping of the textures
 
 JR: yes
 
-NS: In most cases . lats say one have a metal build thing
-and one to do it quick and dirty
-one can just make the seams
-and select all the element with a specific material
-and unwrap the whole thing in one go
+NS: In most cases. Let's say one have a metal build thing
+and want to do it quick and dirty.
+One can just make the seams
+and select all the elements with a specific material
+and unwrap the whole thing in one go,
 and if one has two materials
-do the same for the other
+do the same for the other.
 
 JR: yes
 
-NS: OK so supposed you are happy with the unwrap
-time to see how textures look t it
+NS: OK so supposed you are happy with the unwrap,
+time to see how textures look at it
 
 JR: ok yes
 
@@ -243,21 +239,19 @@ JR: yes
 
 NS: and wrap that to the box
 
-JR: yes
-
-
-JR: how do we do that
+JR: yes,
+how do we do that?
 
 NS: Now we leave the UV editor
-and go to the Shading panel
-that is where we do texture setups
-you have 4 main panels there
-the model
+and go to the Shading panel.
+That is where we do texture setups.
+you have 4 main panels there, 
+the model, 
 
 JR: ok. because of whatever i did there, i have a Principled BSDF putting green on the model
 
-NS: and to the left of it a directory
-yes it uses a default
+NS: and to the left of it a directory ...
+Yes it uses a default.
 
 JR: yes
 JR: so somewhere in the folders i would find a texture?
@@ -272,28 +266,27 @@ and upload that
 
 JR: into SL you mean?
 
-NS: If you have one in SL you need to download it
-you need to find a local texture in your computer to use
+NS: If you have one in SL you need to download it:
+you need to find a local texture in your computer to use.
 
-JR: i have a texture on my desktop, what should i do with it?
-JR: i see it in the directory window
+JR: I have a texture on my desktop, what should i do with it?
+JR: I see it in the directory window
 
-NS: yes under that
-there is a texture display window
-and you need the texture to appear int hat
-you see 3 lines
-in the top row of the window
-has a option for uploading a texture
+NS: yes, under that
+there is a texture display window,
+and you need the texture to appear in that.
+You see 3 lines
+in the top row of the window.
+It has an option for uploading a texture.
 
 JR: The one that says View New Open?
 
-NS: yes
-Image open
-next to it
+NS: yes.
+Image open,
+next to it.
 
-JR: in the lower left panel?
-
-JR: not the directory one?
+JR: In the lower left panel?
+Not the directory one?
 
 NS: OK there is an other way
 much easier
@@ -301,19 +294,19 @@ use the directory folder
 to find you texture
 click and drag to the window below
 
-JR: ok tried both. anyway now i have the image
+JR: ok tried both. anyway now i have the image.
 
-NS: Good
-So you get an image
-next
+NS: Good.
+So you get an image.
+Next
 you need a material
 and you have that green stuff
 you can use in the panel to the (far) right
 
 JR: yes the principled BSDF thing
 
-NS: yes
-so that control panel is the most confusing thing in blender
+NS: yes.
+so that control panel is the most confusing thing in blender.
 on the left side there are a lot of icons
 
 JR: :) i agree so far :)
@@ -324,23 +317,23 @@ which is some red circle with a map on
 
 JR: i don't see any icons on my screen or your last picture
 
-NS: yes you doo a little (vertical) row of icons
+NS: yes you do a little (vertical) row of icons
 
 JR: oh you mean the panel on the far right?
 
-NS: yes
+NS: yes.
 in the left side of that
 
 JR: yes and pick the map one?
 
-NS: there is a vertical row of icons
+NS: There is a vertical row of icons
 and you pick the one which is a red circles with something on "maybe a sphere"
 
 JR: yes i think it is a map :)
 
-NS: So it look like my picture
-yes
-so that is where one controls textures
+NS: So it looks like my picture.
+Yes.
+So that is where one controls textures.
 Now to associate the image with the shader
 
 JR: ok
@@ -349,13 +342,13 @@ NS: under the center window there is the node window
 
 JR: yes
 
-NS: and you have the principled shader set up
-but you need a texture
-so you need a node
-to grab the texture and use that as colours
+NS: and you have the principled shader set up,
+but you need a texture.
+So you need a node
+to grab the texture and use that as colours.
 So in the top menu you find
-ADD / texture / Image texture
-should add a texture node
+ADD / texture / Image texture.
+That should add a texture node
 
 JR: yes done
 
@@ -365,52 +358,53 @@ there is a place called new open
 
 JR: yes
 
-NS: and a funny icon in front
-the little icon in front
-is used to select already uploaded textures
+NS: and a funny icon in front.
+The little icon in front
+is used to select already uploaded textures.
 
 JR: ah yes picked the one from the list
 
-NS: so click that
-you get a lit of textures you  added
-list
-and you select the one to use
+NS: so click that.
+You get a list of textures you have added,
+and you select the one to use.
 
 JR: and i wire color into base color and there it is
 
-NS: exactly
-and you box should be textured
+NS: exactly.
+And you box should be textured
 
 JR: now when i export that to DAE will it retain that texture?
 
-NS: no
-DAE is erratic with textures
-it should be possible but I've never had it work
-So one upload the box as DEA no textures
+NS: no.
+DAE is erratic with textures.
+It should be possible but I've never had it work.
+So one upload the box as DEA no textures.
 
 JR: again in SL
 
-NS: and the textures you used after
-and then texture it is SL
+NS: and [export?]the textures you used afterwards,
+and then texture it in SL
 
 JR: so given this texture can i see it on the UV and then adjust where the wrapping is?
 
-NS: yes
+NS: yes.
 we go back to the UV thing
-UV editing
+UV editing.
 Here's a picture:
-[https://gyazo.com/e62b473e305d1ef7369a927b2d9d5fce](https://gyazo.com/e62b473e305d1ef7369a927b2d9d5fce)
+<!-- [https://gyazo.com/e62b473e305d1ef7369a927b2d9d5fce](https://gyazo.com/e62b473e305d1ef7369a927b2d9d5fce) -->
 
 ![](/assets/p3.jpeg)
-here i am back in my box a bit more complex
-i have it is edit mode and selected all the faces on the top
-and in the right panel you see the UV MAP
-and i selected an image that was used to texture
-now i can decide where i like my UV map to be
-maybe i like the top of the box to have the whole map
+
+Here i am back in my box a bit more complex.
+I have it in edit mode and selected all the faces on the top,
+and in the right panel you see the UV MAP,
+and i selected an image that was used to texture.
+Now i can decide where i like my UV map to be.
+Maybe I would like the top of the box to have the whole map
 <!-- [https://gyazo.com/3c0715c29431c5461afb61fb63f0e3a7](https://gyazo.com/3c0715c29431c5461afb61fb63f0e3a7) -->
 
 ![](/assets/p4.png)
+
 like this
 and i can get my texture displayed as i like
 <!-- [https://gyazo.com/58eb1c9288226b7f72b39b4ea8f4e726](https://gyazo.com/58eb1c9288226b7f72b39b4ea8f4e726) -->
