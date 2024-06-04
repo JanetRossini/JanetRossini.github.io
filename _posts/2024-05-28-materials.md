@@ -3,7 +3,7 @@ date: "2024-05-28-1330"
 title: Blender Materials 
 ---
 
-* v0.7
+* v0.8
 
 Here is a roughly edited transcript of a lesson in materials in Blender, for Second Life.
 
@@ -491,7 +491,7 @@ say bump map
 NS: OK we like some bumps
 on the model
 so you draw a few white lines across the black image
-[https://gyazo.com/97e420fb7b27b350dc319b24ad0fe44c](https://gyazo.com/97e420fb7b27b350dc319b24ad0fe44c)
+<!-- [https://gyazo.com/97e420fb7b27b350dc319b24ad0fe44c](https://gyazo.com/97e420fb7b27b350dc319b24ad0fe44c) -->
 
 
 ![](/assets/p7.png)
@@ -522,8 +522,10 @@ ADD( VECTOR /BUMP
 
 JR: add image texture? i am not clear on how to add the image we just drew.
 
-NS: [https://gyazo.com/d59b8bafc91b5107b4192819a51fd059](https://gyazo.com/d59b8bafc91b5107b4192819a51fd059)
-![](p8.png)
+NS: 
+<!-- [https://gyazo.com/d59b8bafc91b5107b4192819a51fd059](https://gyazo.com/d59b8bafc91b5107b4192819a51fd059) -->
+
+![](/assets/p8.png)
 like this
 you can see in the texture
 node
@@ -533,8 +535,8 @@ so click that and select the texture
 JR: i am behind. is the Europe thing an image texture node?
 
 NS: no in the node editor window
-[https://gyazo.com/a686620080b4f8574f9e2c13be0b3a2d](https://gyazo.com/a686620080b4f8574f9e2c13be0b3a2d)
-![](p9.png)
+<!-- [https://gyazo.com/a686620080b4f8574f9e2c13be0b3a2d](https://gyazo.com/a686620080b4f8574f9e2c13be0b3a2d) -->
+![](/assets/p9.png)
 like this
 
 JR: ok i do not know how to get those two new nodes in
@@ -565,7 +567,7 @@ JR: yes
 
 NS: 
 <!-- [https://gyazo.com/c6f31b4b4132d8ac04411179964c0f89](https://gyazo.com/c6f31b4b4132d8ac04411179964c0f89) -->
-![](p10.jpeg)
+![](/assets/p10.jpeg)
 like this
 so you are use you got th right texture
 
@@ -580,7 +582,7 @@ and then from the output of the bump normal
 to shader normal
 and restore the  colour to the original picture
 <!-- [https://gyazo.com/7c6fe382cb76d36a6f478017deedab8b](https://gyazo.com/7c6fe382cb76d36a6f478017deedab8b) -->
-![](p11.png)
+![](/assets/p11.png)
 so i got this
 
 JR: mine looks mostly like a dark smear across the picture
@@ -590,7 +592,7 @@ your setup
 a screen dump
 
 JR: [https://gyazo.com/6651dcfb444e0abe5de9fa930e2938ca](https://gyazo.com/6651dcfb444e0abe5de9fa930e2938ca)
-![](p12.jpeg)
+![](/assets/p12.jpeg)
 
 JR: i think it's probably right just looks weird because of my weird image
 
@@ -612,10 +614,10 @@ you go to the node window
 and click in the node with the bump map
 so it get highlighted
 <!-- [https://gyazo.com/ed525bdc75a91870a7bd3ad69b7c2eea](https://gyazo.com/ed525bdc75a91870a7bd3ad69b7c2eea) -->
-![](p13.png)
+![](/assets/p13.png)
 then return to texture paint
 <!-- [https://gyazo.com/85a0b995f6f9486a8e17328e93f4d9e8](https://gyazo.com/85a0b995f6f9486a8e17328e93f4d9e8) -->
-![](p14.png)
+![](/assets/p14.png)
 and you should have this picture
 where the bump map is displayed on your model
 and then you can draw directly on you model
@@ -625,7 +627,7 @@ JR: ah yes i see :)
 
 NS: 
 <!-- [https://gyazo.com/80a2bdcf112e6621a1e475953e8ecc22](https://gyazo.com/80a2bdcf112e6621a1e475953e8ecc22) -->
-![](p15.png)
+![](/assets/p15.png)
 
 JR: white is up black is down?
 
@@ -646,7 +648,7 @@ basically it can do anything Photoshop can do and more
 
 JR: 
 <!-- [https://gyazo.com/b39085ce6e82c92f389a045f2005aac8](https://gyazo.com/b39085ce6e82c92f389a045f2005aac8) -->
-![](p16.jpeg)
+![](/assets/p16.jpeg)
 
 NS: but it is much much more complicated
 ok the whole
@@ -673,7 +675,7 @@ the gray scale
 
 JR: In this picture ... 
 <!-- [https://gyazo.com/da68ac53eceb9a4a3a4c4ec9935434c9](https://gyazo.com/da68ac53eceb9a4a3a4c4ec9935434c9)  -->
-![](p17.jpeg)
+![](/assets/p17.jpeg)
 
 JR: I just drew one black line over neutral gray
 but there are two lines on the image. i do not understand why.
@@ -686,13 +688,13 @@ and is a 3 D view
 find a softer brush
 and a bigger line
 <!-- [https://gyazo.com/7c7842c4e83b543c91c63b363dc02ae3](https://gyazo.com/7c7842c4e83b543c91c63b363dc02ae3) -->
-![](p18.png)
+![](/assets/p18.png)
 the same in my example
 
 JR: ok. how do i get a "softer brush"?
 
 NS: [https://gyazo.com/9876b4fb9f9b3ab38e6da1c2b97ef59f](https://gyazo.com/9876b4fb9f9b3ab38e6da1c2b97ef59f)
-![](p19.png)
+![](/assets/p19.png)
 
 JR: oh i just have one, i think: texdraw
 
@@ -743,7 +745,7 @@ JR: ok
 
 NS: i add a stand alone image texture node
 <!-- [https://gyazo.com/3dbc1df0d9867d6fbc3ccbeff2c8b4df](https://gyazo.com/3dbc1df0d9867d6fbc3ccbeff2c8b4df) -->
-![](p20.png)
+![](/assets/p20.png)
 like this
 
 JR: ok
@@ -756,7 +758,7 @@ JR: yes. blank?
 
 NS: 
 <!-- [https://gyazo.com/1b086690bb289a97abfbbc36a2135ade](https://gyazo.com/1b086690bb289a97abfbbc36a2135ade) -->
-![](p21.png)
+![](/assets/p21.png)
 call it maybe normal map
 you can rename it anytime
 should be a blank black image
@@ -797,7 +799,7 @@ JR: yes
 
 NS: 
 <!-- [https://gyazo.com/356757e975f99b48e9ce42e95bcae37c](https://gyazo.com/356757e975f99b48e9ce42e95bcae37c) -->
-![](p22.png)
+![](/assets/p22.png)
 go to the near top
 and click the render icon
 and select the render mode to cycles
@@ -808,14 +810,14 @@ you find a entry called bake
 
 NS: 
 [https://gyazo.com/544fa82faec8cf7965107102d70223c7](https://gyazo.com/544fa82faec8cf7965107102d70223c7)
-![](p23.png)
+![](/assets/p23.png)
 looks like this when opened
 
 NS: you have to change the bake type
 in the top of the menu
 to normal
 <!-- [https://gyazo.com/200280b78553b08e970acd34982c5980](https://gyazo.com/200280b78553b08e970acd34982c5980) -->
-![](p24.png)
+![](/assets/p24.png)
 and then scroll down
 n just press bake
 the button bake
@@ -829,7 +831,7 @@ gray bar call bake int he bake menu
 the very top thing
 above where you set the bake type
 <!-- [https://gyazo.com/85d26a98ff9ae7c719600389c033c0a8](https://gyazo.com/85d26a98ff9ae7c719600389c033c0a8) -->
-![](p25.png)
+![](/assets/p25.png)
 
 JR: ok it slowly did something
 JR: over in the image window
@@ -846,7 +848,7 @@ JR: yes
 
 NS: 
 <!-- [https://gyazo.com/0510706d8fd850f4ca8c9d5267ecbf10](https://gyazo.com/0510706d8fd850f4ca8c9d5267ecbf10) -->
-![](p26.png)
+![](/assets/p26.png)
 like this
 something
 that is the normal map
