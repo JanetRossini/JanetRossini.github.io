@@ -591,7 +591,8 @@ NS: can i see
 your setup
 a screen dump
 
-JR: [https://gyazo.com/6651dcfb444e0abe5de9fa930e2938ca](https://gyazo.com/6651dcfb444e0abe5de9fa930e2938ca)
+JR: 
+<!-- [https://gyazo.com/6651dcfb444e0abe5de9fa930e2938ca](https://gyazo.com/6651dcfb444e0abe5de9fa930e2938ca) -->
 ![](/assets/p12.jpeg)
 
 JR: i think it's probably right just looks weird because of my weird image
@@ -693,7 +694,8 @@ the same in my example
 
 JR: ok. how do i get a "softer brush"?
 
-NS: [https://gyazo.com/9876b4fb9f9b3ab38e6da1c2b97ef59f](https://gyazo.com/9876b4fb9f9b3ab38e6da1c2b97ef59f)
+NS: 
+<!-- [https://gyazo.com/9876b4fb9f9b3ab38e6da1c2b97ef59f](https://gyazo.com/9876b4fb9f9b3ab38e6da1c2b97ef59f) -->
 ![](/assets/p19.png)
 
 JR: oh i just have one, i think: texdraw
@@ -809,7 +811,7 @@ you find a entry called bake
 
 
 NS: 
-[https://gyazo.com/544fa82faec8cf7965107102d70223c7](https://gyazo.com/544fa82faec8cf7965107102d70223c7)
+<!-- [https://gyazo.com/544fa82faec8cf7965107102d70223c7](https://gyazo.com/544fa82faec8cf7965107102d70223c7) -->
 ![](/assets/p23.png)
 looks like this when opened
 
