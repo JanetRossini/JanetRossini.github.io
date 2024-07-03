@@ -6,99 +6,24 @@ title: Texturing
 
 ---
 
-NS: So a new blender  session
-
-DS: ok
-
-NS: I  think we shoudl start  with a  cube  as always
-
-DS: ok
-
-NS: and a  good way  will be to add a  texture  So let me  just  find soemthign  usefull
-
-DS: ok
-
-DS: you can pass it via SL and we can download it
-
-NS: ok just to make  thign a  bit  different  today  we star t out  with a  cube
-
-NS: and the  add a metal  surface  lol  try to find a  asimple  texture
-
-DS: did you find turning down the render number helped janet?
-
-JR: i'm not sure
-
-NS: there si a  texture calld raw  iron
-
-JR: raw iron
-
-NS: raw iron
-
-DS: in blenderkit?
-
-NS: yes  in  blender kit
-
-NS: pretty  simple  node  structure  and  4  different
-
-NS: textures
-
-JR: ok got it
-
-DS: me too
-
-NS: ok  so we ara ll aligned  let  look at the  noce tree first
-
-NS: node tree
-
-JR: base metallic roughness normals
-
-NS: we see the  colour and  roughness  metalic
-
-NS: and then there is a  normal
-
-JR: yes
-
-NS: and a displacement thing  the  Displacement is  nto  usefull for  SL
-
-NS: it can be there  whispers: which is  ok  but  can not be  used in SL
-
-JR: ok
-
-NS: So what we like to  do  is  to change the  Normal map
-
-NS: and change how  the  normal map  behave  here si  oen node  we can  use to add an addition normal map
-
-NS: called BUMP
-
-NS: 
+NS:  So a new blender  session  I  think we shoudl start  with a  cube  as always
+NS:  and a  good way  will be to add a  texture  So let me  just  find soemthign  usefull  ok just to make  thign a  bit  different  today  we star t out  with a  cube
+NS:  and the  add a metal  surface  lol  try to find a  asimple  texture  there si a  texture calld raw  iron
+NS:  yes  in  blender kit  pretty  simple  node  structure  and  4  different
+NS:  textures  ok  so we ara ll aligned  let  look at the  node tree first
+NS:  node tree  we see the  colour and  roughness  metalic
+NS:  and then there is a  normal  and a displacement thing  the  Displacement is  nto  usefull for  SL
+NS:  it can be there  whispers: which is  ok  but  can not be  used in SL  So what we like to  do  is  to change the  Normal map
+NS:  and change how  the  normal map  behave  here si  oen node  we can  use to add an addition normal map  called BUMP
 
 [image](https://gyazo.com/10d235a2d4823dfc6d33f79c1a89e35a)
 
-JR: yes
-
-NS: So try  to get that to the  node system  and insetr  between the  normal output of the  normal map
-
-NS: and the  normal input  to the  principal shader
-
-NS:
+NS:  So try  to get that to the  node system  and insetr  between the  normal output of the  normal map  and the  normal input  to the  principal shader
 
 [image](https://gyazo.com/ad205e1f8c3575f0fdd5e47f8ce27113))
 
-NS: like  this
-
-DS: how do we find it
-
-NS: you  clcik on add  add a noce
-
-NS: node  when the  first  list appear you can type  in bump
-
-JR: got it
-
-NS: else  it is  a vector  noce
-
-DS: ok
-
-NS: so Add/Vector/Bump
+NS:  like  this  you  clcik on add  add a node  when the  first  list appear you can type  in bump
+NS:  else  it is  a vector  node  so Add/Vector/Bump
 
 DS: wondered how to search
 
@@ -108,25 +33,15 @@ JR: i do shift-a to add the space takes me to search
 
 NS: Yes  janet
 
-DS: ok
-
-DS: done
-
-NS: there is  unfortunately many strange thign in blender still Space starts animations for me  Ok we loook at the  node
-
-NS: and there is  some input called hight  Hight is a  gray tone immage
+NS:  there is  unfortunately many strange thign in blender still Space starts animations for me  Ok we loook at the  node  and there is  some input called hight  Hight is a  gray tone immage
 
 DS: ok
 
-NS: that is  tranformed into normals  So what we can do now
-
-NS: is tomake a texture  that will be the  bump needed
+NS:  that is  tranformed into normals  So what we can do now  is tomake a texture  that will be the  bump needed
 
 DS: ok
 
-NS: to do that  we need first a proper input related to the  UV map we use
-
-NS: so the  textures are aligned
+NS:  to do that  we need first a proper input related to the  UV map we use  so the  textures are aligned
 
 DS: ok
 
@@ -138,15 +53,12 @@ NS:
 
 [image](https://gyazo.com/eb76e49ff6d0ecca158473eec9cc19d9))
 
-NS: somethign liek this  So we have to connect that into the node tree
-
-NS: The input should be the same scaling as the  uther textures  they all are fed with a  vector  input  from mapping
-
+NS:  somethign liek this  So we have to connect that into the node tree  The input should be the same scaling as the  uther textures  they all are fed with a  vector  input  from mapping
 NS: so we simply connect  that  to the  vector  input of the  texture
 
 DS: ok done
 
-NS: and then the  colour  input  goes into the  hight of the bump noce
+NS: and then the  colour  input  goes into the  hight of the bump node
 
 JR: wait connect what to what?
 
@@ -158,9 +70,7 @@ NS: you need aninput  witch is  the  vector (UV) map  intomation  and the output
 
 DS: color output of image to height of bump
 
-NS: yes  So we added a  extra layer of normal mapping
-
-NS: on top of  what was there originally
+NS:  yes  So we added a  extra layer of normal mapping  on top of  what was there originally
 
 JR: ok i have it
 
@@ -174,15 +84,11 @@ NS: Yes next is  to make a  actual texture  we are fortunate
 
 JR: how nice
 
-NS: the  Texture noce has a new  function  So one can click  that
-
-NS: and then define an image  no alfa will be best
+NS:  the  Texture node has a new  function  So one can click  that  and then define an image  no alfa will be best
 
 JR: size 1024 and blank ok?
 
-NS: yes
-
-NS:
+NS:  yes 
 
 [image](https://gyazo.com/755da268010151523783828eb6c8c5ec)
 
@@ -190,9 +96,7 @@ NS: and there si s a colour setting too  has to be non-colour
 
 JR: i don't understand that last image
 
-NS: Colour Space - non colour  ts is  how  i added a  texture
-
-NS: i called it  bump  and i canged the  colour Space to non colour
+NS:  Colour Space - non colour  ts is  how  i added a  texture  i called it  bump  and i canged the  colour Space to non colour
 
 DS: ok
 
@@ -200,25 +104,18 @@ NS: It is  hight measurement not a  colour
 
 DS: done
 
-NS: we add to the  thing  So with  this  setup
-
-NS: we can start  to change the  Normal map  by  painting on the  texture we added
+NS:  we add to the  thing  So with  this  setup  we can start  to change the  Normal map  by  painting on the  texture we added
 
 JR: ok ... so far i feel like i'm working without a net
 
 DS: we will draw that soon :)
 
-NS: Yes Janet  Sorry for the  complexity
-
-NS: But we arr all there  Have a bump  node
-
+NS:  Yes Janet  Sorry for the  complexity  But we arr all there  Have a bump  node
 NS: with an associated image
 
 JR: somewhere
 
-NS: and changing  gray  tones in that  chould change the  normal map
-
-NS: add or  subtract from it
+NS:  and changing  gray  tones in that  chould change the  normal map  add or  subtract from it
 
 DS: so this is useful for rivets?
 
@@ -236,9 +133,7 @@ JR: but no image yet
 
 DS: same here
 
-NS: You shoudl  have a  back image in the  Image display called  "bump" maybe  if you go to the  side  panel
-
-NS: with is the  image display
+NS:  You shoudl  have a  back image in the  Image display called  "bump" maybe  if you go to the  side  panel  with is the  image display
 
 DS: yes
 
@@ -249,6 +144,7 @@ DS: yes
 JR: i see an 8x8 square with no name
 
 DS:
+
 
 [image](https://gyazo.com/6be978f905d143ea097915e692d5c44d)
 
@@ -266,20 +162,12 @@ DS: :)
 
 DS: yes
 
-NS: always  hidden layers in blender  Smiels
-
-NS: sow e are pretty  well off  to make the  first  bump map changes
-
-NS: No  we have an image  and we like to change that
-
-NS: in order to do that
+NS:  always  hidden layers in blender  Smiels  sow e are pretty  well off  to make the  first  bump map changes
+NS:  No  we have an image  and we like to change that  in order to do that
 
 JR: ok black square
 
-NS: we need to  go to a new setup  Called Image paint
-
-NS: sorry texture Paint  "TEXTURE APAINT
-
+NS:  we need to  go to a new setup  Called Image paint  sorry texture Paint  "TEXTURE APAINT
 NS: Before ve do
 
 DS: ok
@@ -294,9 +182,7 @@ DS: :)
 
 JR: before jumping from plan, be sure you are wearing your chute.
 
-NS: So you have to click  in the  node tree  on the bump map  image
-
-NS: so it  get a  highlighted border
+NS:  So you have to click  in the  node tree  on the bump map  image  so it  get a  highlighted border
 
 DS: ok
 
@@ -312,6 +198,7 @@ NS: Ok  so my  window looks like this
 
 DS:
 
+
 [image](https://gyazo.com/1c7164898987625c5b61f5d4925346a6)
 
 JR: yes
@@ -322,23 +209,15 @@ NS:
 
 DS: ok
 
-NS: we have a image  display  and we have the  cube
-
-NS: one can change the  way  ti is  shown  using the  icon inthe  upper  right  corner
-
-NS: as in the  model  window  show  ti as a  mesh  or  with  fidderent  textures
-
-NS: the  best here is  to show  in  full render
-
+NS:  we have a image  display  and we have the  cube  one can change the  way  ti is  shown  using the  icon inthe  upper  right  corner
+NS:  as in the  model  window  show  ti as a  mesh  or  with  fidderent  textures  the  best here is  to show  in  full render
 NS:
 
 [image](https://gyazo.com/ab227bbe8d7e7a08b1767fbe528c998a)
 
 DS: oki i hade to open the veiwport wide to see that
 
-NS: yes  some miht  be  hidden
-
-NS: So now  we  are in a  texture draw mode
+NS:  yes  some miht  be  hidden  So now  we  are in a  texture draw mode
 
 JR: yes that is odd
 
@@ -348,17 +227,13 @@ DS: yes
 
 DS: 2
 
-NS: and in the  texture panel  one can draw
-
-NS: as example  some  white line
+NS:  and in the  texture panel  one can draw  as example  some  white line
 
 DS: (moves blender to Huion screen)
 
 JR: what brush should we use?
 
-NS: So if one pla  with the  Display  on can switch
-
-NS: between different modes
+NS:  So if one pla  with the  Display  on can switch  between different modes
 
 JR: i just have the one i guess texdraw
 
@@ -367,6 +242,7 @@ NS: Se ejust the  texture  or the  full render
 JR: ?
 
 DS:
+
 
 [image](https://gyazo.com/9306dad08d43a09189b9b7b8f22cbcbc hehe)
 
@@ -388,11 +264,10 @@ JR: mine is not changing the picture
 
 JR:
 
+
 [image](https://gyazo.com/05f3868b2e33842f347e1a7a4d3627a9)
 
-NS: Janet  I  think i  made amistake
-
-NS: mistake  int he  node tree
+NS:  Janet  I  think i  made amistake  mistake  int he  node tree
 
 JR: ok
 
@@ -400,9 +275,7 @@ NS:
 
 [image](https://gyazo.com/1b73c7a78872a9db6e594c09dd312b2b)
 
-NS: the  bump map  picture has to be  inputted to the  hight  like shown here
-
-NS: Sorry  (mistakes happens)  int he  end
+NS:  the  bump map  picture has to be  inputted to the  hight  like shown here  Sorry  (mistakes happens)  int he  end
 
 JR: ah yes much better
 
@@ -412,21 +285,10 @@ NS: we shoudl see somethign liek this
 
 DS: i made a mistake and connected it
 
-NS: good  Dizzi  Also make more sence
-
-NS: sense  so we see anythign we draw
-
-NS: on the  picture is  nor refleced in a change fo the  normal  map  So
-
-NS: Now we need to knwo  abit of how th e bump map  are jandeled  handeled
-
-NS: gray  128   is no change  and more white  is  up
-
-NS: darker is  down  So the  normal  way to do  a bump map
-
-NS: is  to make  it  uniform gray  and the add hight or  dept
-
-NS: so  just colour pick a  mid  gray tome  and
+NS:  good  Dizzi  Also make more sence  sense  so we see anythign we draw
+NS:  on the  picture is  nor refleced in a change fo the  normal  map  So  Now we need to knwo  abit of how th e bump map  are jandeled  handeled
+NS:  gray  128   is no change  and more white  is  up  darker is  down  So the  normal  way to do  a bump map
+NS:  is  to make  it  uniform gray  and the add hight or  dept  so  just colour pick a  mid  gray tome  and
 
 DS: so set grey and a big brush and paint it all?
 
@@ -435,7 +297,6 @@ NS: then paint the picture with a  huge  brush  make it all gray
 JR: i have a question
 
 NS: yes  Yes Janet
-
  ?
 
 JR: i was drawing in white, as i think you were, and got the pattern on the cube as you had (I think)
@@ -472,19 +333,12 @@ NS: I think the  main thign here
 
 JR: nothing i do seems to make it go away
 
-NS: is one can get to the  texture paint  and get the  right  texture selected
-
-NS: and actually see how  one  cange the  bumpmap  But we are not  done
-
-NS: ecause  we have  even more poverfull tools  here  One can draw ont he  cube  directly  too
-
-NS: and it  wil change the  image  selected nothing  else  So if we all make the  image  grayish
+NS:  is one can get to the  texture paint  and get the  right  texture selected  and actually see how  one  cange the  bumpmap  But we are not  done
+NS:  ecause  we have  even more poverfull tools  here  One can draw ont he  cube  directly  too  and it  wil change the  image  selected nothing  else  So if we all make the  image  grayish
 
 JR: nothing i do affects the cube
 
-NS: Ok Janet  So did  you  fix the little thing with the  node tree
-
-NS:
+NS:  Ok Janet  So did  you  fix the little thing with the  node tree 
 
 [image](https://gyazo.com/c92f59f240db9c339ddec326b5bc9723)
 
@@ -494,13 +348,13 @@ NS: colout input  from the texture  has to go into the hght
 
 JR:
 
+
 [image](https://gyazo.com/e054eb0c4817d6488e412e3865653f6a)
 
-NS: Ok  so go back to the node tree  ok that might  be  ok  Janet
-
-NS: try to  make a  unifor colour in grqay  all over the  image
+NS:  Ok  so go back to the node tree  ok that might  be  ok  Janet  try to  make a  unifor colour in grqay  all over the  image
 
 JR:
+
 
 [image](https://gyazo.com/1004573d08c659ad65c176c5177662dc)
 
@@ -508,11 +362,10 @@ NS: nodes are fine  so  if w e get the  image  in a  gray  tone  unifor all high
 
 JR: now it did this
 
+
 [image](https://gyazo.com/3240d485f72c66a976dbe0fc9e7baff5)
 
-NS: smiles  are yo sure you  ahve the  right  image  selected
-
-NS: int he texture paint  there si  somethign  makign bumps
+NS:  smiles  are yo sure you  ahve the  right  image  selected  int he texture paint  there si  somethign  makign bumps
 
 DS: try going over the area a few times
 
@@ -538,6 +391,7 @@ NS: so we can see the  selections meny bars
 
 JR:
 
+
 [image](https://gyazo.com/a47c1752ba578e8c2b7710d25c3e3504)
 
 DS: set the radius large and scrubb the area a lot
@@ -560,9 +414,7 @@ NS: Try  to save the  Bump immage  to the  drive
 
 JR: how does one do that
 
-NS: Sometimes bender do not  update  if there is not  file to save to  Click in the minu  on image
-
-NS: and save  or save as
+NS:  Sometimes bender do not  update  if there is not  file to save to  Click in the minu  on image  and save  or save as
 
 JR: k done
 
@@ -580,19 +432,15 @@ NS: took me  tons of  frustration
 
 DS: explains why it happened here too
 
-NS: and headace to find what i  lost  But we gt a  logn  way
-
-NS: we have a  texture with  can be a bump map  and can paint on that
-
+NS:  and headace to find what i  lost  But we gt a  logn  way  we have a  texture with  can be a bump map  and can paint on that
 NS: Next
 
 DS:
 
+
 [image](https://gyazo.com/dd897a348a539b87bd6444bc042af944)
 
-NS: Now we have  cleared the  bump map  we can go the  the  image  display  window
-
-NS: and then draw dirctly on the  cube
+NS:  Now we have  cleared the  bump map  we can go the  the  image  display  window  and then draw dirctly on the  cube
 
 DS: yes
 
@@ -606,9 +454,7 @@ JR: bah
 
 JR: now it is stuck flat
 
-NS: yes  so you  got all flat again  janet
-
-NS: then try to  so to the  model  window  and use the  brudh there
+NS:  yes  so you  got all flat again  janet  then try to  so to the  model  window  and use the  brudh there
 
 JR: and nothing i draw in the square or on the cube makes any difference
 
@@ -644,19 +490,19 @@ NS: yes try  cucles  Eevee shoudl show  bump map  too though
 
 JR: now i have this:
 
+
 [image](https://gyazo.com/3487b0685bab56e84d361211c29a3cbb)
 
 DS: it did
 
-NS: ok that is  fine  Janet  then you have to select a better display
-
-NS: it is  the  icons in the  upper corner
+NS:  ok that is  fine  Janet  then you have to select a better display  it is  the  icons in the  upper corner
 
 JR: yes it lost that setting
 
 NS: whare you select  between  mesh  faces texture or  full render
 
 DS: yes was like this
+
 
 [image](https://gyazo.com/b81a36d7ff89cf415f9bcde208a3087c)
 
@@ -665,7 +511,6 @@ NS:
 [image](https://gyazo.com/a0623dc2b7b45cff17c0669b6da0aea0)
 
 NS: you can  swith  to see  the  textur  onthe  onject or the  render of all  you see the  texture directly
-
 Eye of Odin HUD to wear: + LibbyCoker  [4]
 
 Eye of Odin HUD to wear: - LibbyCoker  [3]
@@ -678,9 +523,7 @@ NS: yes and  faster update of the  bump  But we need to get Janet in line
 
 JR: again i cannot draw
 
-NS: Ok Save the  file  close the  all
-
-NS: then reopen  you  shoudl get back to  whare you are
+NS:  Ok Save the  file  close the  all  then reopen  you  shoudl get back to  whare you are
 
 DS: yes but you could draw this externally in Procreate or PS
 
@@ -695,18 +538,16 @@ NS: So try  to close it  Janet  somethign got  stuck
 JR: closed and reopened blender still nothing
 
 NS: then reopen the  blender file  whispers: and you can not  draw ont he  image
-
  ????
 
 JR: i can draw in white on gray but not black
 
 DS: these are my brush settings
 
+
 [image](https://gyazo.com/3288e82a973b80f5751cda17136c53d2)
 
-NS: Shoud draw  thing  white lines  thin
-
-NS: white lines
+NS:  Shoud draw  thing  white lines  thin  white lines
 
 DS: yes
 
@@ -720,43 +561,31 @@ DS: yes?
 
 JR: anyway i think i understand up to now what should be possible
 
-NS: Ok se we have  to align again  we all make the  immage  a gray tone
-
-NS: and bump  should  vanish  then we can  go to the  model  window
-
-NS: and try t make  bump  by  direct draw ont he  cube  make some dots around
-
-NS: somethign liek this
-
+NS:  Ok se we have  to align again  we all make the  immage  a gray tone  and bump  should  vanish  then we can  go to the  model  window
+NS:  and try t make  bump  by  direct draw ont he  cube  make some dots around  somethign liek this
 NS:
 
 [image](https://gyazo.com/fd060fd2497d4e12ab40b86b4a3dc1ce)
 
-NS: it shoudl change the  image  relecting the  change
-
-NS: reflecting the  changes  You got that
-
+NS:  it shoudl change the  image  relecting the  change  reflecting the  changes  You got that
  ?
 
 JR: shouts: yes i managed to get something like rivets. but you have to paint a lot to get it flat again. perhaps best to start with new textures
 
 JR: sorry
 
-NS: Smiles  Ok Janet
-
-NS: as long we have  some  dots
+NS:  Smiles  Ok Janet  as long we have  some  dots
 
 DS: yes im seing same sort of stuff, why not make a texture in 128 grey and load it before scrawling on it
 
-NS: one can  do that  it  takes me 2 strokes to go gray
-
-NS: make a brush 1000 pt
+NS:  one can  do that  it  takes me 2 strokes to go gray  make a brush 1000 pt
 
 DS: ok
 
 NS: and then 1000 percent
 
 DS:
+
 
 [image](https://gyazo.com/781583771e447083de4382c492d630ba)
 
@@ -786,6 +615,7 @@ DS: wiped clean still bumpy
 
 DS:
 
+
 [image](https://gyazo.com/98e7368eaacefb95de466d99d0f6c73f)
 
 NS: yes it is nto  clean Dizzi  But before we all get totally  frustrated
@@ -802,11 +632,13 @@ NS: and tell me if  you have
 
 DS:
 
+
 [image](https://gyazo.com/446c2dc5c49530aba534260ebd043671)
 
 NS: good  Dizzi
 
 JR:
+
 
 [image](https://gyazo.com/0fb02ef4cd832b2693d9e754b57dde45)
 
@@ -818,14 +650,8 @@ NS: The strength of the bumpmap
 
 JR: i think i get the idea but i have no clue why it works sometimes and not others
 
-NS: the  power  how  ti is  displayed  is determined int he node tree
-
-NS: and that si  important to know that once can change the  strength  we  run  on  a  huge amplification
-
-NS: so we  go back to the shader editir  editor
-
-NS: find the bump  node  and notice there is a  strength setting
-
+NS:  the  power  how  ti is  displayed  is determined int he node tree  and that si  important to know that once can change the  strength  we  run  on  a  huge amplification
+NS:  so we  go back to the shader editir  editor  find the bump  node  and notice there is a  strength setting
 NS: it is  by default set to  1.000
 
 DS: yes
@@ -836,23 +662,18 @@ JR: ah it is range 0-1
 
 DS:
 
+
 [image](https://gyazo.com/e28ccef593bd1afb5cdd1d22e533510d)
 
-NS: yes and one can tyne the effect of the   bumpmap  sliding it  up and  down
-
-NS: one can also play  with the  distance  it is  usuallt  set to 1 and keept  fixed
+NS:  yes and one can tyne the effect of the   bumpmap  sliding it  up and  down  one can also play  with the  distance  it is  usuallt  set to 1 and keept  fixed
 
 DS: what does it do?
 
-NS: usually  it compress the  information in the  bumpmap  picture
-
-NS: if the strength is  1
+NS:  usually  it compress the  information in the  bumpmap  picture  if the strength is  1
 
 DS: ok
 
-NS: light gray  is already out of  range  and  Black is  out of  range
-
-NS: so you get  jetky  bumpmaps  with flat tops and growes
+NS:  light gray  is already out of  range  and  Black is  out of  range  so you get  jetky  bumpmaps  with flat tops and growes
 
 DS: ok
 
@@ -868,9 +689,7 @@ NS: Strength  is about  0.1 - 0.3 maybe  Distance  keep  on  1
 
 DS: ok
 
-NS: Ok  so what we have  now
-
-NS: is some controll of  how a  bumpmap will affect the  model
+NS:  Ok  so what we have  now  is some controll of  how a  bumpmap will affect the  model
 
 JR: yes, and i crave a break :)
 
