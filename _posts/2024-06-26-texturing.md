@@ -48,7 +48,7 @@ NS: is  to change the  Normal map
 NS: and change how  the  normal map  behave
 NS: here si  oen node  we can  use to add an addition normal map
 NS: called BUMP
-NS: https://gyazo.com/10d235a2d4823dfc6d33f79c1a89e35a
+NS: [](https://gyazo.com/10d235a2d4823dfc6d33f79c1a89e35a)
 JR: yes
 NS: So try  to get that to the  node system
 NS: and insetr  between the  normal output of the  normal map
