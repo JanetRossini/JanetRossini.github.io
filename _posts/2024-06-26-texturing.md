@@ -7,14 +7,8 @@ title: Texturing
 ---
 
 NS:  So a new blender  session  I  think we shoudl start  with a  cube  as always
-NS:  and a  good way  will be to add a  texture  So let me  just  find soemthign  usefull  ok just to make  thign a  bit  different  today  we star t out  with a  cube
-NS:  and the  add a metal  surface  lol  try to find a  asimple  texture  there si a  texture calld raw  iron
-NS:  yes  in  blender kit  pretty  simple  node  structure  and  4  different
-NS:  textures  ok  so we ara ll aligned  let  look at the  node tree first
-NS:  node tree  we see the  colour and  roughness  metalic
-NS:  and then there is a  normal  and a displacement thing  the  Displacement is  nto  usefull for  SL
-NS:  it can be there  whispers: which is  ok  but  can not be  used in SL  So what we like to  do  is  to change the  Normal map
-NS:  and change how  the  normal map  behave  here si  oen node  we can  use to add an addition normal map  called BUMP
+
+NS:  and a  good way  will be to add a  texture  So let me  just  find soemthign  usefull  ok just to make  thign a  bit  different  today  we star t out  with a  cube  and the  add a metal  surface  lol  try to find a  asimple  texture  there si a  texture calld raw  iron  yes  in  blender kit  pretty  simple  node  structure  and  4  different  textures  ok  so we ara ll aligned  let  look at the  node tree first  node tree  we see the  colour and  roughness  metalic  and then there is a  normal  and a displacement thing  the  Displacement is  nto  usefull for  SL  it can be there  whispers: which is  ok  but  can not be  used in SL  So what we like to  do  is  to change the  Normal map  and change how  the  normal map  behave  here si  oen node  we can  use to add an addition normal map  called BUMP
 
 [image](https://gyazo.com/10d235a2d4823dfc6d33f79c1a89e35a)
 
@@ -22,8 +16,7 @@ NS:  So try  to get that to the  node system  and insetr  between the  normal ou
 
 [image](https://gyazo.com/ad205e1f8c3575f0fdd5e47f8ce27113))
 
-NS:  like  this  you  clcik on add  add a node  when the  first  list appear you can type  in bump
-NS:  else  it is  a vector  node  so Add/Vector/Bump
+NS:  like  this  you  clcik on add  add a node  when the  first  list appear you can type  in bump  else  it is  a vector  node  so Add/Vector/Bump
 
 DS: wondered how to search
 
@@ -53,8 +46,7 @@ NS:
 
 [image](https://gyazo.com/eb76e49ff6d0ecca158473eec9cc19d9))
 
-NS:  somethign liek this  So we have to connect that into the node tree  The input should be the same scaling as the  uther textures  they all are fed with a  vector  input  from mapping
-NS: so we simply connect  that  to the  vector  input of the  texture
+NS:  somethign liek this  So we have to connect that into the node tree  The input should be the same scaling as the  uther textures  they all are fed with a  vector  input  from mapping so we simply connect  that  to the  vector  input of the  texture
 
 DS: ok done
 
@@ -110,8 +102,7 @@ JR: ok ... so far i feel like i'm working without a net
 
 DS: we will draw that soon :)
 
-NS:  Yes Janet  Sorry for the  complexity  But we arr all there  Have a bump  node
-NS: with an associated image
+NS:  Yes Janet  Sorry for the  complexity  But we arr all there  Have a bump  node with an associated image
 
 JR: somewhere
 
@@ -162,13 +153,11 @@ DS: :)
 
 DS: yes
 
-NS:  always  hidden layers in blender  Smiels  sow e are pretty  well off  to make the  first  bump map changes
-NS:  No  we have an image  and we like to change that  in order to do that
+NS:  always  hidden layers in blender  Smiels  sow e are pretty  well off  to make the  first  bump map changes  No  we have an image  and we like to change that  in order to do that
 
 JR: ok black square
 
-NS:  we need to  go to a new setup  Called Image paint  sorry texture Paint  "TEXTURE APAINT
-NS: Before ve do
+NS:  we need to  go to a new setup  Called Image paint  sorry texture Paint  "TEXTURE APAINT Before ve do
 
 DS: ok
 
@@ -209,8 +198,7 @@ NS:
 
 DS: ok
 
-NS:  we have a image  display  and we have the  cube  one can change the  way  ti is  shown  using the  icon inthe  upper  right  corner
-NS:  as in the  model  window  show  ti as a  mesh  or  with  fidderent  textures  the  best here is  to show  in  full render
+NS:  we have a image  display  and we have the  cube  one can change the  way  ti is  shown  using the  icon inthe  upper  right  corner  as in the  model  window  show  ti as a  mesh  or  with  fidderent  textures  the  best here is  to show  in  full render
 NS:
 
 [image](https://gyazo.com/ab227bbe8d7e7a08b1767fbe528c998a)
@@ -285,10 +273,7 @@ NS: we shoudl see somethign liek this
 
 DS: i made a mistake and connected it
 
-NS:  good  Dizzi  Also make more sence  sense  so we see anythign we draw
-NS:  on the  picture is  nor refleced in a change fo the  normal  map  So  Now we need to knwo  abit of how th e bump map  are jandeled  handeled
-NS:  gray  128   is no change  and more white  is  up  darker is  down  So the  normal  way to do  a bump map
-NS:  is  to make  it  uniform gray  and the add hight or  dept  so  just colour pick a  mid  gray tome  and
+NS:  good  Dizzi  Also make more sence  sense  so we see anythign we draw  on the  picture is  nor refleced in a change fo the  normal  map  So  Now we need to knwo  abit of how th e bump map  are jandeled  handeled  gray  128   is no change  and more white  is  up  darker is  down  So the  normal  way to do  a bump map  is  to make  it  uniform gray  and the add hight or  dept  so  just colour pick a  mid  gray tome  and
 
 DS: so set grey and a big brush and paint it all?
 
@@ -333,8 +318,7 @@ NS: I think the  main thign here
 
 JR: nothing i do seems to make it go away
 
-NS:  is one can get to the  texture paint  and get the  right  texture selected  and actually see how  one  cange the  bumpmap  But we are not  done
-NS:  ecause  we have  even more poverfull tools  here  One can draw ont he  cube  directly  too  and it  wil change the  image  selected nothing  else  So if we all make the  image  grayish
+NS:  is one can get to the  texture paint  and get the  right  texture selected  and actually see how  one  cange the  bumpmap  But we are not  done  ecause  we have  even more poverfull tools  here  One can draw ont he  cube  directly  too  and it  wil change the  image  selected nothing  else  So if we all make the  image  grayish
 
 JR: nothing i do affects the cube
 
@@ -432,8 +416,7 @@ NS: took me  tons of  frustration
 
 DS: explains why it happened here too
 
-NS:  and headace to find what i  lost  But we gt a  logn  way  we have a  texture with  can be a bump map  and can paint on that
-NS: Next
+NS:  and headace to find what i  lost  But we gt a  logn  way  we have a  texture with  can be a bump map  and can paint on that Next
 
 DS:
 
@@ -561,8 +544,7 @@ DS: yes?
 
 JR: anyway i think i understand up to now what should be possible
 
-NS:  Ok se we have  to align again  we all make the  immage  a gray tone  and bump  should  vanish  then we can  go to the  model  window
-NS:  and try t make  bump  by  direct draw ont he  cube  make some dots around  somethign liek this
+NS:  Ok se we have  to align again  we all make the  immage  a gray tone  and bump  should  vanish  then we can  go to the  model  window  and try t make  bump  by  direct draw ont he  cube  make some dots around  somethign liek this
 NS:
 
 [image](https://gyazo.com/fd060fd2497d4e12ab40b86b4a3dc1ce)
@@ -650,9 +632,7 @@ NS: The strength of the bumpmap
 
 JR: i think i get the idea but i have no clue why it works sometimes and not others
 
-NS:  the  power  how  ti is  displayed  is determined int he node tree  and that si  important to know that once can change the  strength  we  run  on  a  huge amplification
-NS:  so we  go back to the shader editir  editor  find the bump  node  and notice there is a  strength setting
-NS: it is  by default set to  1.000
+NS:  the  power  how  ti is  displayed  is determined int he node tree  and that si  important to know that once can change the  strength  we  run  on  a  huge amplification  so we  go back to the shader editir  editor  find the bump  node  and notice there is a  strength setting it is  by default set to  1.000
 
 DS: yes
 
