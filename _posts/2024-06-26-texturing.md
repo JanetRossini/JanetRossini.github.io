@@ -4,6 +4,7 @@ title: Texturing
 ---
 
 NS: So a new blender  session
+
 DS: ok
 NS: I  think we shoudl start  with a  cube
 NS: as always
