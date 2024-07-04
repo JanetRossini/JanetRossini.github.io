@@ -226,7 +226,7 @@ NS: colout input  from the texture  has to go into the hght
 JR: (needs jpg?)
 
 
-![image](https://i.gyazo.com/e054eb0c4817d6488e412e3865653f6a)
+![image](https://i.gyazo.com/e054eb0c4817d6488e412e3865653f6a.jpg)
 
 NS:  Ok  so go back to the node tree  ok that might  be  ok  Janet  try to  make a  unifor colour in grqay  all over the  image
 
@@ -240,7 +240,7 @@ NS: nodes are fine  so  if w e get the  image  in a  gray  tone  unifor all high
 JR: now it did this
 
 
-![image](https://i.gyazo.com/3240d485f72c66a976dbe0fc9e7baff5.png)
+![image](https://i.gyazo.com/3240d485f72c66a976dbe0fc9e7baff5.jpg)
 
 NS:  smiles  are yo sure you  ahve the  right  image  selected  int he texture paint  there si  something  makign bumps
 
@@ -269,7 +269,7 @@ NS: so we can see the  selections meny bars
 JR:
 
 
-![image](https://i.gyazo.com/a47c1752ba578e8c2b7710d25c3e3504.png)
+![image](https://i.gyazo.com/a47c1752ba578e8c2b7710d25c3e3504.jpg)
 
 DS: set the radius large and scrubb the area a lot
 
@@ -314,7 +314,7 @@ NS:  and headace to find what i  lost  But we gt a  logn  way  we have a  textur
 DS:
 
 
-![image](https://i.gyazo.com/dd897a348a539b87bd6444bc042af944.png)
+![image](https://i.gyazo.com/dd897a348a539b87bd6444bc042af944.jpg)
 
 NS:  Now we have  cleared the  bump map  we can go the  the  image  display  window  and then draw dirctly on the  cube
 
@@ -367,7 +367,7 @@ NS: yes try  cucles  Eevee should show  bump map  too though
 JR: now i have this:
 
 
-![image](https://i.gyazo.com/3487b0685bab56e84d361211c29a3cbb.png)
+![image](https://i.gyazo.com/3487b0685bab56e84d361211c29a3cbb.jpg)
 
 DS: it did
 
@@ -462,7 +462,7 @@ NS: and then 1000 percent
 DS:
 
 
-![image](https://i.gyazo.com/781583771e447083de4382c492d630ba.png)
+![image](https://i.gyazo.com/781583771e447083de4382c492d630ba.jpg)
 
 NS: and it  delete all
 
@@ -515,7 +515,7 @@ NS: good  Dizzi
 JR:
 
 
-![image](https://i.gyazo.com/0fb02ef4cd832b2693d9e754b57dde45.png)
+![image](https://i.gyazo.com/0fb02ef4cd832b2693d9e754b57dde45.jpg)
 
 NS: good Janet  Ok
 
@@ -581,7 +581,3 @@ NS: that  ahs  to be  baked  has
 DS: next lesson
 
 NS: One  bake the normal map
-
-DS: save what we have?
-
-JR: i'm sorry, i must log and undertake the bins.
