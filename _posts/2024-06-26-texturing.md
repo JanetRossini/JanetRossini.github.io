@@ -14,7 +14,7 @@ NS:  and a  good way  will be to add a  texture  So let me  just  find soemthign
 
 NS:  So try  to get that to the  node system  and insert  between the  normal output of the  normal map  and the  normal input  to the  principal shader
 
-[image](https://i.gyazo.com/ad205e1f8c3575f0fdd5e47f8ce27113.png)
+![image](https://i.gyazo.com/ad205e1f8c3575f0fdd5e47f8ce27113.png)
 
 NS:  like  this  you  clcik on add  add a node  when the  first  list appear you can type  in bump  else  it is  a vector  node  so Add/Vector/Bump
 
@@ -32,7 +32,7 @@ NS:  to do that  we need first a proper input related to the  UV map we use  so 
 NS: So let us add a  Image texture  Add /  Texture / Image
 
 
-[image](https://i.gyazo.com/eb76e49ff6d0ecca158473eec9cc19d9.png)
+![image](https://i.gyazo.com/eb76e49ff6d0ecca158473eec9cc19d9.png)
 
 NS:  something like this  So we have to connect that into the node tree  The input should be the same scaling as the  uther textures  they all are fed with a  vector  input  from mapping so we simply connect  that  to the  vector  input of the  texture
 
@@ -42,7 +42,7 @@ JR: wait connect what to what?
 
 NS:
 
-[image](https://gyazo.com/d4006b02bb99c2b162d119afa6ed7937)
+![image](https://i.gyazo.com/d4006b02bb99c2b162d119afa6ed7937.png)
 
 NS: you need an input  witch is  the  vector (UV) map  intomation  and the output  goes into the  hight  of the  bump  node
 
