@@ -150,7 +150,7 @@ NS: (#11)
 
 NS: my  thing  in texture mode  and we can see the  UV is  repeated many  times
 
-![image](https://i.gyazo.com/05f3868b2e33842f347e1a7a4d3627a9.png)
+![image](https://i.gyazo.com/05f3868b2e33842f347e1a7a4d3627a9.jpg)
 
 NS:  I  think i  made amistake  mistake  int he  node tree
 
@@ -223,10 +223,10 @@ JR: yes and i have the crosshatch but that is now all i can get even if i paint 
 
 NS: colout input  from the texture  has to go into the hght
 
-JR:
+JR: (needs jpg?)
 
 
-![image](https://i.gyazo.com/e054eb0c4817d6488e412e3865653f6a.png)
+![image](https://i.gyazo.com/e054eb0c4817d6488e412e3865653f6a)
 
 NS:  Ok  so go back to the node tree  ok that might  be  ok  Janet  try to  make a  unifor colour in grqay  all over the  image
 
