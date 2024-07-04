@@ -10,7 +10,7 @@ NS:  So a new blender  session  I  think we should start  with a  cube  as alway
 
 NS:  and a  good way  will be to add a  texture  So let me  just  find soemthign  usefull  ok just to make  thign a  bit  different  today  we star t out  with a  cube  and then  add a metal  surface.  try to find a  asimple  texture  there is a  texture calld raw iron  in  blender kit.  pretty  simple  node  structure  and  4  different  textures.  so we ara ll aligned.  let's  look at the  node tree first  node tree  we see the  colour and  roughness  metalic  and then there is a  normal  and a displacement thing  the  Displacement is  not  useful for  SL  it can be there  whispers: which is  ok  but  can not be  used in SL  So what we like to  do  is  to change the  Normal map  and change how  the  normal map  behave  here is  one node  we can  use to add an addition normal map  called BUMP
 
-[image](https://gyazo.com/10d235a2d4823dfc6d33f79c1a89e35a)
+![image](https://gyazo.com/10d235a2d4823dfc6d33f79c1a89e35a)
 
 NS:  So try  to get that to the  node system  and insert  between the  normal output of the  normal map  and the  normal input  to the  principal shader
 
@@ -140,8 +140,11 @@ NS:  So if one pla  with the  Display  on can switch  between different modes
 
 NS: Se ejust the  texture  or the  full render
 
+DS: hehe
 
-[image](https://gyazo.com/9306dad08d43a09189b9b7b8f22cbcbc hehe)
+[image](https://gyazo.com/9306dad08d43a09189b9b7b8f22cbcbc)
+
+NS: (#11)
 
 [image](https://gyazo.com/b85953c3d8c28897d29735024d242342)
 
