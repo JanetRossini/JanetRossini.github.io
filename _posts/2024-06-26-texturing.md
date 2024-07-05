@@ -10,11 +10,11 @@ NS:  So a new blender  session  I  think we should start  with a  cube  as alway
 
 NS:  and a  good way  will be to add a  texture  So let me  just  find soemthign  usefull  ok just to make  thign a  bit  different  today  we star t out  with a  cube  and then  add a metal  surface.  try to find a  asimple  texture  there is a  texture calld raw iron  in  blender kit.  pretty  simple  node  structure  and  4  different  textures.  so we ara ll aligned.  let's  look at the  node tree first  node tree  we see the  colour and  roughness  metalic  and then there is a  normal  and a displacement thing  the  Displacement is  not  useful for  SL  it can be there  whispers: which is  ok  but  can not be  used in SL  So what we like to  do  is  to change the  Normal map  and change how  the  normal map  behave  here is  one node  we can  use to add an addition normal map  called BUMP
 
-![image](https://i.gyazo.com/10d235a2d4823dfc6d33f79c1a89e35a.png)
+![image](/assets/10d235a2d4823dfc6d33f79c1a89e35a.png)
 
 NS:  So try  to get that to the  node system  and insert  between the  normal output of the  normal map  and the  normal input  to the  principal shader
 
-![image](https://i.gyazo.com/ad205e1f8c3575f0fdd5e47f8ce27113.png)
+![image](/assets/ad205e1f8c3575f0fdd5e47f8ce27113.png)
 
 NS:  like  this  you  clcik on add  add a node  when the  first  list appear you can type  in bump  else  it is  a vector  node  so Add/Vector/Bump
 
@@ -32,7 +32,7 @@ NS:  to do that  we need first a proper input related to the  UV map we use  so 
 NS: So let us add a  Image texture  Add /  Texture / Image
 
 
-![image](https://i.gyazo.com/eb76e49ff6d0ecca158473eec9cc19d9.png)
+![image](/assets/eb76e49ff6d0ecca158473eec9cc19d9.png)
 
 NS:  something like this  So we have to connect that into the node tree  The input should be the same scaling as the  uther textures  they all are fed with a  vector  input  from mapping so we simply connect  that  to the  vector  input of the  texture
 
@@ -42,7 +42,7 @@ JR: wait connect what to what?
 
 NS:
 
-![image](https://i.gyazo.com/d4006b02bb99c2b162d119afa6ed7937.png)
+![image](/assets/d4006b02bb99c2b162d119afa6ed7937.png)
 
 NS: you need an input  witch is  the  vector (UV) map  intomation  and the output  goes into the  hight  of the  bump  node
 
@@ -59,7 +59,7 @@ JR: size 1024 and blank ok?
 
 NS:  yes 
 
-![image](https://i.gyazo.com/755da268010151523783828eb6c8c5ec.png)
+![image](/assets/755da268010151523783828eb6c8c5ec.png)
 
 NS: and there is a colour setting too:  has to be non-colour
 
@@ -94,7 +94,7 @@ DS: yes
 
 JR: i see an 8x8 square with no name
 
-![image](https://i.gyazo.com/6be978f905d143ea097915e692d5c44d.png)
+![image](/assets/6be978f905d143ea097915e692d5c44d.png)
 
 NS: ok Janet
 
@@ -120,15 +120,15 @@ NS: then when you go  to  texture paint  that is the  image  you  work on
 
 NS: Ok  so my  window looks like this
 
-![image](https://i.gyazo.com/1c7164898987625c5b61f5d4925346a6.png)
+![image](/assets/1c7164898987625c5b61f5d4925346a6.png)
 
-![image](https://i.gyazo.com/09c7349b5b4a04e7a500dfa3f84bc712.png)
+![image](/assets/09c7349b5b4a04e7a500dfa3f84bc712.png)
 
 
 NS:  we have a image  display  and we have the  cube  one can change the  way  ti is  shown  using the  icon inthe  upper  right  corner  as in the  model  window  show  ti as a  mesh  or  with  fidderent  textures  the  best here is  to show  in  full render
 NS:
 
-![image](https://i.gyazo.com/ab227bbe8d7e7a08b1767fbe528c998a.png)
+![image](/assets/ab227bbe8d7e7a08b1767fbe528c998a.png)
 
 DS: ok i i had to open the veiwport wide to see that
 
@@ -142,19 +142,19 @@ NS: Se ejust the  texture  or the  full render
 
 DS: hehe
 
-![image](https://i.gyazo.com/9306dad08d43a09189b9b7b8f22cbcbc.png)
+![image](/assets/9306dad08d43a09189b9b7b8f22cbcbc.png)
 
 NS: (#11)
 
-![image](https://i.gyazo.com/b85953c3d8c28897d29735024d242342.png)
+![image](/assets/b85953c3d8c28897d29735024d242342.png)
 
 NS: my  thing  in texture mode  and we can see the  UV is  repeated many  times
 
-![image](https://i.gyazo.com/05f3868b2e33842f347e1a7a4d3627a9.jpg)
+![image](/assets/05f3868b2e33842f347e1a7a4d3627a9.jpg)
 
 NS:  I  think i  made amistake  mistake  int he  node tree
 
-![image](https://i.gyazo.com/1b73c7a78872a9db6e594c09dd312b2b.png)
+![image](/assets/1b73c7a78872a9db6e594c09dd312b2b.png)
 
 NS:  the  bump map  picture has to be  inputted to the  hight  like shown here  Sorry  (mistakes happens)  in the  end
 
@@ -217,7 +217,7 @@ JR: nothing i do affects the cube
 
 NS:  Ok Janet  So did  you  fix the little thing with the  node tree 
 
-![image](https://i.gyazo.com/c92f59f240db9c339ddec326b5bc9723.png)
+![image](/assets/c92f59f240db9c339ddec326b5bc9723.png)
 
 JR: yes and i have the crosshatch but that is now all i can get even if i paint more
 
@@ -226,21 +226,21 @@ NS: colout input  from the texture  has to go into the hght
 JR: (needs jpg?)
 
 
-![image](https://i.gyazo.com/e054eb0c4817d6488e412e3865653f6a.jpg)
+![image](/assets/e054eb0c4817d6488e412e3865653f6a.jpg)
 
 NS:  Ok  so go back to the node tree  ok that might  be  ok  Janet  try to  make a  unifor colour in grqay  all over the  image
 
 JR:
 
 
-![image](https://i.gyazo.com/1004573d08c659ad65c176c5177662dc.png)
+![image](/assets/1004573d08c659ad65c176c5177662dc.png)
 
 NS: nodes are fine  so  if w e get the  image  in a  gray  tone  unifor all hight  changes should vanish
 
 JR: now it did this
 
 
-![image](https://i.gyazo.com/3240d485f72c66a976dbe0fc9e7baff5.jpg)
+![image](/assets/3240d485f72c66a976dbe0fc9e7baff5.jpg)
 
 NS:  smiles  are yo sure you  ahve the  right  image  selected  int he texture paint  there si  something  makign bumps
 
@@ -269,7 +269,7 @@ NS: so we can see the  selections meny bars
 JR:
 
 
-![image](https://i.gyazo.com/a47c1752ba578e8c2b7710d25c3e3504.jpg)
+![image](/assets/a47c1752ba578e8c2b7710d25c3e3504.jpg)
 
 DS: set the radius large and scrubb the area a lot
 
@@ -314,7 +314,7 @@ NS:  and headace to find what i  lost  But we gt a  logn  way  we have a  textur
 DS:
 
 
-![image](https://i.gyazo.com/dd897a348a539b87bd6444bc042af944.jpg)
+![image](/assets/dd897a348a539b87bd6444bc042af944.jpg)
 
 NS:  Now we have  cleared the  bump map  we can go the  the  image  display  window  and then draw dirctly on the  cube
 
@@ -367,7 +367,7 @@ NS: yes try  cucles  Eevee should show  bump map  too though
 JR: now i have this:
 
 
-![image](https://i.gyazo.com/3487b0685bab56e84d361211c29a3cbb.jpg)
+![image](/assets/3487b0685bab56e84d361211c29a3cbb.jpg)
 
 DS: it did
 
@@ -380,11 +380,11 @@ NS: whare you select  between  mesh  faces texture or  full render
 DS: yes was like this
 
 
-![image](https://i.gyazo.com/b81a36d7ff89cf415f9bcde208a3087c.png)
+![image](/assets/b81a36d7ff89cf415f9bcde208a3087c.png)
 
 NS:
 
-![image](https://i.gyazo.com/a0623dc2b7b45cff17c0669b6da0aea0.png)
+![image](/assets/a0623dc2b7b45cff17c0669b6da0aea0.png)
 
 NS: you can  swith  to see  the  textur  onthe  onject or the  render of all  you see the  texture directly
 Eye of Odin HUD to wear: + LibbyCoker  [4]
@@ -421,7 +421,7 @@ JR: i can draw in white on gray but not black
 DS: these are my brush settings
 
 
-![image](https://i.gyazo.com/3288e82a973b80f5751cda17136c53d2.png)
+![image](/assets/3288e82a973b80f5751cda17136c53d2.png)
 
 NS:  Shoud draw  thing  white lines  thin  white lines
 
@@ -440,7 +440,7 @@ JR: anyway i think i understand up to now what should be possible
 NS:  Ok se we have  to align again  we all make the  immage  a gray tone  and bump  should  vanish  then we can  go to the  model  window  and try t make  bump  by  direct draw ont he  cube  make some dots around  something like this
 NS:
 
-![image](https://i.gyazo.com/fd060fd2497d4e12ab40b86b4a3dc1ce.png)
+![image](/assets/fd060fd2497d4e12ab40b86b4a3dc1ce.png)
 
 NS:  it should change the  image  relecting the  change  reflecting the  changes  You got that
  ?
@@ -462,7 +462,7 @@ NS: and then 1000 percent
 DS:
 
 
-![image](https://i.gyazo.com/781583771e447083de4382c492d630ba.jpg)
+![image](/assets/781583771e447083de4382c492d630ba.jpg)
 
 NS: and it  delete all
 
@@ -491,7 +491,7 @@ DS: wiped clean still bumpy
 DS:
 
 
-![image](https://i.gyazo.com/98e7368eaacefb95de466d99d0f6c73f.png)
+![image](/assets/98e7368eaacefb95de466d99d0f6c73f.png)
 
 NS: yes it is nto  clean Dizzi  But before we all get totally  frustrated
 
@@ -508,14 +508,14 @@ NS: and tell me if  you have
 DS:
 
 
-![image](https://i.gyazo.com/446c2dc5c49530aba534260ebd043671.png)
+![image](/assets/446c2dc5c49530aba534260ebd043671.png)
 
 NS: good  Dizzi
 
 JR:
 
 
-![image](https://i.gyazo.com/0fb02ef4cd832b2693d9e754b57dde45.jpg)
+![image](/assets/0fb02ef4cd832b2693d9e754b57dde45.jpg)
 
 NS: good Janet  Ok
 
@@ -536,7 +536,7 @@ JR: ah it is range 0-1
 DS:
 
 
-![image](https://i.gyazo.com/e28ccef593bd1afb5cdd1d22e533510d.png)
+![image](/assets/e28ccef593bd1afb5cdd1d22e533510d.png)
 
 NS:  yes and one can tyne the effect of the   bumpmap  sliding it  up and  down  one can also play  with the  distance  it is  usuallt  set to 1 and keept  fixed
 
