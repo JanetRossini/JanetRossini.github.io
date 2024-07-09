@@ -561,7 +561,7 @@ JR: yes, and i crave a break :)
 
 JR: but i think i mostly get the idea
 
-NS: Yes  ajnet  Lol
+NS: Yes  janet  Lol
 
 DS: :)
 
